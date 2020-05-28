@@ -1,0 +1,23 @@
+{
+    "name": "ps/fortyone",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ps\\Fortyone\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ps\\Fortyone\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "ps/fortyone": "self.version",
+        "typo3-ter/fortyone": "self.version"
+    }
+}
